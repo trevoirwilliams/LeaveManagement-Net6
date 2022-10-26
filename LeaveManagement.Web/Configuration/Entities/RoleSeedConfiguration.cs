@@ -11,13 +11,13 @@ namespace LeaveManagement.Web.Configurations.Entities
             builder.HasData(
                 new IdentityRole
                 {
-                    Id = "cac43a6e-f7bb-4448-baaf-1add431ccbbf",
+                    Id = "admin12-f7bb-4448-baaf-1add431ccbbf",
                     Name = "Administrator",
                     NormalizedName = "ADMINISTRATOR"
                 },
                 new IdentityRole
                 {
-                    Id = "cac51a7e-f7bb-4448-baaf-1acd431ddbbf",
+                    Id = "user12-f7bb-4448-baaf-1acd431ddbbf",
                     Name = "User",
                     NormalizedName = "USER"
                 }

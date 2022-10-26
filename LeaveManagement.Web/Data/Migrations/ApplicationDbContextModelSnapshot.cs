@@ -104,43 +104,43 @@ namespace LeaveManagement.Web.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "f39e6011-1c3e-449d-80c7-6d77d78b9d7d",
+                            Id = "6d77d78b9d7d-1c3e-449d-f66e1234",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "14c3e80d-e455-4c11-8e0c-0dcea03f289f",
+                            ConcurrencyStamp = "7a5a7f00-8367-4faf-ada0-415ee9ad3358",
                             DateJoined = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DateOfBirth = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Email = "emreersoylu@hotmail.com",
+                            Email = "adminsson@hotmail.com",
                             EmailConfirmed = true,
-                            FirstName = "Emre",
-                            LastName = "Ersoylu",
+                            FirstName = "Admin",
+                            LastName = "Adminsson",
                             LockoutEnabled = false,
-                            NormalizedEmail = "EMREERSOYLU@HOTMAIL.COM",
-                            NormalizedUserName = "EMREERSOYLU@HOTMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEPRdm3XfKk5MIH/YSYqq/PdH/WuZdPEplLJVklmkNzzQg5oCvU7a8wNxaIBN9PuPHw==",
+                            NormalizedEmail = "ADMINSSON@HOTMAIL.COM",
+                            NormalizedUserName = "ADMINSSON@HOTMAIL.COM",
+                            PasswordHash = "AQAAAAEAACcQAAAAENI5Bt/grL8VIsPNdaaKpaqdHecoxSz0BiUOWbcpdjkpHcAI2sT+ZFWwPuwgae0bpw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "3ab26926-8159-42b6-ba1a-3b953e3eab4a",
+                            SecurityStamp = "746f7713-a0aa-48ad-a2d6-66548c21f617",
                             TwoFactorEnabled = false,
-                            UserName = "emreersoylu@hotmail.com"
+                            UserName = "adminsson@hotmail.com"
                         },
                         new
                         {
-                            Id = "f66e1234-1c3e-449d-80c7-6d77d78b9d7d",
+                            Id = "f66e1234-1c3e-449d-80c7-6d77d7",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "02a8327e-47aa-4526-be23-221918b93343",
+                            ConcurrencyStamp = "ba7a21f0-44c6-4a07-aa2f-a8ff01b67627",
                             DateJoined = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DateOfBirth = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Email = "turkanersoylu@hotmail.com",
+                            Email = "usersson@hotmail.com",
                             EmailConfirmed = true,
-                            FirstName = "Turkan",
-                            LastName = "Ersoylu",
+                            FirstName = "User",
+                            LastName = "Usersson",
                             LockoutEnabled = false,
-                            NormalizedEmail = "TURKANERSOYLU@HOTMAIL.COM",
-                            NormalizedUserName = "TURKANERSOYLU@HOTMAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAELdlAXdjiRHS2W78R20omPM/i2YkpYgkzq8sOhp2xTS1o3KQoy1uWxFd7IFBafbWsg==",
+                            NormalizedEmail = "USERSSON@HOTMAIL.COM",
+                            NormalizedUserName = "USERSSON@HOTMAIL.COM",
+                            PasswordHash = "AQAAAAEAACcQAAAAEEQG0c7A/TkqL3XjWJbkj7jYs41atjb6rxULaMilYqgeR6VUBXh6CWmDWe20z2+YNA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "e64f37cb-a82c-4ac5-9358-f4a1bc9cd4bb",
+                            SecurityStamp = "cd6676ac-44b6-4572-ac3f-6a276612c4d7",
                             TwoFactorEnabled = false,
-                            UserName = "turkanersoylu@hotmail.com"
+                            UserName = "usersson@hotmail.com"
                         });
                 });
 
@@ -230,15 +230,15 @@ namespace LeaveManagement.Web.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "cac43a6e-f7bb-4448-baaf-1add431ccbbf",
-                            ConcurrencyStamp = "8661d268-87ef-4510-b217-410fe7695aff",
+                            Id = "admin12-f7bb-4448-baaf-1add431ccbbf",
+                            ConcurrencyStamp = "97a6bf0d-a24b-4f2a-bfd7-18334bd07a74",
                             Name = "Administrator",
                             NormalizedName = "ADMINISTRATOR"
                         },
                         new
                         {
-                            Id = "cac51a7e-f7bb-4448-baaf-1acd431ddbbf",
-                            ConcurrencyStamp = "4a79941e-225e-4d63-9fdb-be68c789eb79",
+                            Id = "user12-f7bb-4448-baaf-1acd431ddbbf",
+                            ConcurrencyStamp = "459f3989-b97c-42af-940c-d28ffbff1689",
                             Name = "User",
                             NormalizedName = "USER"
                         });
@@ -335,13 +335,13 @@ namespace LeaveManagement.Web.Data.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "f39e6011-1c3e-449d-80c7-6d77d78b9d7d",
-                            RoleId = "cac43a6e-d8bb-4448-baaf-1add431ccbbf"
+                            UserId = "6d77d78b9d7d-1c3e-449d-f66e1234",
+                            RoleId = "admin12-f7bb-4448-baaf-1add431ccbbf"
                         },
                         new
                         {
-                            UserId = "f66e1234-1c3e-449d-80c7-6d77d78b9d7d",
-                            RoleId = "cac51a7e-f7bb-4448-baaf-1acd431ddbbf"
+                            UserId = "f66e1234-1c3e-449d-80c7-6d77d7",
+                            RoleId = "user12-f7bb-4448-baaf-1acd431ddbbf"
                         });
                 });
 
