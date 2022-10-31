@@ -45,10 +45,10 @@ namespace LeaveManagement.Web.Repositories
 						Period = period,
 						NumberOfDays = leaveType.DefaultDays,
 					});
-					await AddRangeAsync(allocations);
 
 				}
 			}
+					await AddRangeAsync(allocations);
 		}
 	}
 }
