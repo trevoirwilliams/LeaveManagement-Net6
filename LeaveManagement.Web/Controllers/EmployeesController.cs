@@ -19,6 +19,7 @@ namespace LeaveManagement.Web.Controllers
         {
             this.userManager = userManager;
             this.mapper = mapper;
+            this.leaveAllocationRepository = leaveAllocationRepository;
         }
         // GET: EmployeesController
         public async Task<IActionResult> Index() 
